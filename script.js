@@ -11,42 +11,6 @@ const compChoice=()=>{
 }
 
 
-    // let userWin;
-    // function playGame(userChoice){
-    //     let computerChoice=compChoice();
-    //     userMove.textContent=`You:${userChoice}`
-    //     ComputerMove.textContent=`Computer:${computerChoice}`;
-    //     if (userChoice==computerChoice){
-    //         verdict.textContent="";
-    //         verdict.textContent="Its a draw";
-    //     }
-    //     else if (userChoice=="Rock"){
-    //         userWin=(computerChoice=='Scissor')?true:false;
-    //         Result(userWin);
-    //     }
-    //     else if (userChoice=="Scissor"){
-    //         userWin=(computerChoice=="Paper")?true:false;
-    //         Result(userWin);
-    //     }
-    //     else if(userChoice=="Paper"){
-    //         userWin=(computerChoice=="Rock")?true:false;
-    //         Result(userWin);
-    //     }
-    // }
-
-    // function Result(userWin){
-    //     let userScore=Number(userScoreELe.textContent);
-    //     let compScore=Number(compScoreEle.textContent);
-    //     if (userWin){
-    //         userScore+=1;
-    //         userScoreELe.textContent=userScore;
-    //         verdict.textContent="User Win!!"
-    //     }else{
-    //         compScore+=1;
-    //         compScoreEle.textContent=compScore;
-    //         verdict.textContent="Computer Win!!"
-    //     }
-    // }
 
 function playGame(userChoice){
     let computerChoice=compChoice();

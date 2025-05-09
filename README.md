@@ -28,6 +28,6 @@
 To run this project locally:
 
 ```bash
-git clone https://github.com/SravaniChintala56/rock-paper-scissors-js.git
+git clone https://github.com/SravaniChintala56/RockPaperScissor.git
 cd rock-paper-scissors-js
 open index.html
